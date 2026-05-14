@@ -1,0 +1,12 @@
+import type { Config } from 'typescript';
+
+const config: Config = {
+  extends: 'next/tsconfig',
+  compilerOptions: {
+    strict: true,
+    jsx: 'preserve',
+    jsxImportSource: 'react',
+  },
+};
+
+export default config;
